@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Form</title>
+    <link rel="stylesheet" href="/JavaScript/Drills/manipulate.css">
+</head>
+<body>
+    <!--TODO create shipping form-->
+    <div class="shippingDiv">
+        <h2>Shipping Form</h2>
+        <div class="form-class">
+            <form id="shippingForm" action="" method="">
+                <div class="shippinglabel">
+                    <div class="col-15">
+                        <label for="fname">First Name</label><br>
+                        <input type="text" name="firstname" placeholder="Your name.." required>
+                    <div class="col-25">
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" name="lastname" placeholder="Your last name.." required><br>
+                    </div>
+                    </div>
+                </div>
+                <div class="shippinglabel">
+                    <div class="col-35">
+                        <label for="birthdate">Birth Date</label><br>
+                        <input type="date" name="birthdate" required><br>
+                    <div class="col-45">
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" placeholder="Your email.." required><br>
+                    </div>
+                    <div class="col-55">
+                        <label for="city">City</label><br>
+                        <input type="text" name="city" placeholder="City you live.." required><br>
+                        <label for="zip">Zip Code:</label><br>
+                        <input type="text" name="zip" required pattern="\d{5}" placeholder="Zipcode of your location.."><br>
+                    </div>
+                    </div>
+                </div>
+                <div class="button"> 
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        </div>
+
+    <!--TODO user input in form-->
+
+    <!--TODO storing user input in JS-->
+
+    <!--TODO errors are pointed out-->
+
+    <!--TODO date zip firstname and lastame-->
+    <script src="/JavaScript/Drills/manipulate.js"></script>
+</body>
+
+</html>

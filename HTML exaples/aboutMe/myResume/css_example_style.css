@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+/*Changes text inside h1 elements to green*/
+/*0-0-1*/
+h1 {
+	color:green;
+	text-align: center;
+	border-style: dotted;
+	border-bottom: blueviolet;
+	border-bottom-color: chartreuse;
+	outline: #FFCC66;
+}
+/*Changes text inside elements with class="blue" to blue*/
+/*0-1-0*/
+.blue {
+color: #FFCC66
+}
+/*Changes text inside elements with id="red" to color red*/
+/*1-0-0*/
+#red {
+	color: rgb(255, 25, 25);
+	width:50%
+}
+
+/*Changes all text inside p elements to black*/
+/*0-0-1*/
+p {
+	color:black;
+}
+body {
+	height: 10000px;
+	font-size: 18 px;
+	font-family: "Indie Flower", cursive;
+	text-align:center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: auto;
+	background-position: center;
+}
+
+p.blue {
+	font-size: xx-large;
+	text-align: justify;
+	color:rgb(20, 10, 197);
+	background-color: #FFCC66;
+
+}
