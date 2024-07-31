@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Google",
+        "numberOfEmployees": 13424,
+        "Ceo": "Sundar Pichal"
+    },
+    {
+        "name": "Amazon",
+        "numberOfEmployees": 22341,
+        "Ceo": "Jeff Bezos"
+    },
+    {
+        "name": "Facebook",
+        "numberOfEmployees": 12345,
+        "Ceo": "Mark Zuckerberg"
+    },
+    {
+        "name": "Microsoft",
+        "numberOfEmployees": 144000,
+        "Ceo": "Satya Nadella"
+    }
+
+]

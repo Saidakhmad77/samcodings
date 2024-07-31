@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playwrite+US+Trad:wght@100..400&display=swap');
+* {
+    margin: 8px;
+    padding: 2px;
+    box-sizing: border-box; 
+    /* Ensures padding and border are included in element's total width and height */
+}
+
+body {
+    height: 2000px;
+    color:red;
+    font-family: "Indie Flower", cursive;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:auto;
+	background-position: center;
+    background-color:rgb(227, 255, 255);
+    text-align: justify;
+    border : 4px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+
+}
+
+.blue-text {
+    color:blue;
+}
+
+.red-text {
+    color:rgb(247, 37, 37);
+}
+
+#green-text {
+    color:#FFCC66
+}
+
+header {
+    border: 1px;
+}
+figure {
+    width: 200px;
+    height: auto;
+    transition: width 2s;
+}
+
+nav {
+    border : 3px solid black;
+}
+
+.hobbies {
+    width: auto;
+    border: 3px solid rgb(249, 13, 13);
+}
+
+.learning {
+    text-align: center;
+    border: 3px solid rgb(1, 244, 163);
+    width: 300px;
+    border-radius: 10%;
+}
+
+strong {
+    width: 300px;
+    border: 3px rgb(61, 6, 240);
+    border-radius: 10%;
+}
+
+.aboutme {
+    border: 3px solid blue;
+    border-radius: solid;
+    text-align: center;
+    list-style-position: inside;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}

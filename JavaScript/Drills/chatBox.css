@@ -1,0 +1,117 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    padding: 10px; /* Add padding for better mobile view */
+}
+
+.chatbox {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px; /* Limit the width for larger screens */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.chatbox-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.chatbox-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatbox-history {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    max-height: 120px;
+    overflow-y: auto;
+    font-size: 14px;
+    color: #333;
+}
+
+.chatbox-messages {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    border-bottom: 1px solid #ddd;
+}
+
+.chatbox-input {
+    display: flex;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.chatbox-input input {
+    flex: 1;
+    padding: 12px; /* Adjust padding for better touch target */
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.chatbox-input input:focus {
+    border-color: #007bff;
+}
+
+.chatbox-input button {
+    padding: 0 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.chatbox-input button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 12px; /* Increase padding for better readability */
+    border-radius: 15px;
+    max-width: 85%;
+    display: inline-block;
+    word-wrap: break-word;
+    font-size: 16px; /* Increase font size for readability */
+}
+
+.message.user {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.message.bot {
+    background-color: #e1e1e1;
+    color: #333;
+    align-self: flex-start;
+}

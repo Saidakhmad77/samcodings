@@ -1,0 +1,17 @@
+* {
+    margin: 2%;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.container {
+    width: 800px;   
+    height: 600px;
+    margin: auto;
+    margin: 2%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px black solid;
+}
+.image {
+    width: 240px;
+}
