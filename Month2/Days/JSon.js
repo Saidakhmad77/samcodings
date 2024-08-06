@@ -23,10 +23,10 @@ fetch('JSon_exercise.json')
 }); */
 
 
-let catImages = [];
+/* let catImages = []; */
 
 // Fetch a random cat image from The Cat API
-fetch('https://api.thecatapi.com/v1/images/search')
+/* fetch('https://api.thecatapi.com/v1/images/search')
     .then(response => response.json())
     .then(data => {
         console.log("Data:", data);
@@ -48,3 +48,23 @@ fetch('https://api.thecatapi.com/v1/images/search')
     .catch(error => {
         console.error("Error:", error);
     });
+ */
+
+    let companies = [];
+     
+    const xhr = new XMLHttpRequest();
+
+    xhr.open("GET", "JSon_exercise.json", true);
+
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4) {
+            if (xhr.status === 200) {
+                const data = JSON.parse(xhr.responseText);
+
+                displayData(xhr.responseText);
+                console.log(data)
+            }
+        }
+    }
+
+    xhr.send();
