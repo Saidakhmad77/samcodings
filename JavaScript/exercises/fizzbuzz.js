@@ -17,9 +17,9 @@ let userNum = parseInt(prompt("Enter a number"))
         else
         {
             console.log(userNum)
-        } */
+        } 
 
-
+ */
          //////// Rock Paper Sciccors  ////////
 
 // Get user choice
